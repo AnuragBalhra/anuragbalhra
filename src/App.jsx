@@ -13,7 +13,7 @@ function App() {
     <div>
       <div className="bg-secondary-light dark:bg-primary-dark transition duration-300">
         <NavBar />
-				<BrowserRouter>
+				<BrowserRouter basename='/anuragbalhra/'>
 					<Suspense fallback={""}>
 						<Routes>
 							<Route path="/" element={<Home />} />
