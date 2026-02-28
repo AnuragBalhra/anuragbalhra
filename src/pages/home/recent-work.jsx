@@ -1,6 +1,21 @@
-import { QueueListIcon, ShareIcon } from '@heroicons/react/24/outline';
+import { AcademicCapIcon, DocumentTextIcon, QueueListIcon, ShareIcon, VideoCameraIcon } from '@heroicons/react/24/outline';
 
 const projects = [
+    {
+        'name': 'smartintervu',
+        'description': 'An AI powered interview automation platform to automate tech interviews with integrations to livekit, judge0, 100ms and excalidraw.',
+        'icon': VideoCameraIcon
+    },
+    {
+        'name': 'AI Resume Builder',
+        'description': 'An AI powered resume builder and analyzer tool built using Next.js to help craft and optimize resumes.',
+        'icon': DocumentTextIcon
+    },
+    {
+        'name': 'SaaS LMS Platform',
+        'description': 'A SaaS Learning Management System built using Next.js for managing and delivering online courses.',
+        'icon': AcademicCapIcon
+    },
     {
         'name': 'Recommendation System',
         'description': 'An interactive online video streaming application build using Django. Used Collaborative Filtering(CF) recommendation algorithm for suggesting next videos.',
